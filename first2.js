@@ -52,6 +52,7 @@ for(let child of parent.children){
     })
 };
 
+
 // optimize approach --> bubbling 
 
 const granparant = document.getElementById( )
