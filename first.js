@@ -79,13 +79,33 @@
 // const s1 = document.getElementById('first');
 // s1.remove();
 
-const month  = document.getElementById('ten');
+// const month  = document.getElementById('ten');
 
-const lister = document.createElement('li');
-lister.textContent= "Hello";
+// const lister = document.createElement('li');
+// lister.textContent= "Hello";
 
-month.insertAdjacentElement('afterbegin', lister);
+// month.insertAdjacentElement('afterbegin', lister);
 
 
 
 /// Never use innerHTMl = ;
+
+console.log("AShutosh Tripathi");
+
+const button1 = document.getElementById('button1');
+console.log(button1);
+button1.addEventListener('click' , () => {
+    console.log("Button 1 is clicked ");
+});
+
+const button2 = document.getElementById('button2');
+button2.addEventListener('click' , ()=>{
+    console.log('Bitton 2 is click');
+});
+
+const button3 = document.getElementById('button3');
+button3.addEventListener('click' ,()=> {
+    console.log('Cutton 3 is cicked')
+});
+
+console.log(' I am the End ');
