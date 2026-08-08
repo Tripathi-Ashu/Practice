@@ -1,49 +1,49 @@
-// // zomato application
-// const orderDetail = {
-//     orderId: 121212,
-//     food: ['Piza' , 'papa'],
-//     cost:560,
-//     customer_name:'Ashutiosj'
-// }
+// zomato application
+const orderDetail = {
+    orderId: 121212,
+    food: ['Piza' , 'papa'],
+    cost:560,
+    customer_name:'Ashutiosj'
+}
 
 
-// function placOrder (callback , orderDetail) {
-//     console.log(`${cost} paymentis itna`);
+function placOrder (callback , orderDetail) {
+    console.log(`${cost} paymentis itna`);
 
-//     setTimeout(() => {
-//         console.log("Peyement is recive");
+    setTimeout(() => {
+        console.log("Peyement is recive");
 
-//         callback(orderDetail);
-//     }, 4000);
-// };
+        callback(orderDetail);
+    }, 4000);
+};
 
-// function preparingOrder(orderDetail) {
-//     console.log("your food prepare started");
+function preparingOrder(orderDetail) {
+    console.log("your food prepare started");
 
-//     setTimeout( () =>{
-//         console.log('order is preparing');
-//         pickupOrder();
-//     }, 3000)
-// };
+    setTimeout( () =>{
+        console.log('order is preparing');
+        pickupOrder();
+    }, 3000)
+};
 
-// function pickupOrder() {
-//     console.log('Dilivery boy is  on the way  to pick up');
+function pickupOrder() {
+    console.log('Dilivery boy is  on the way  to pick up');
 
-//     setTimeout(() => {
-//         console.log('I have up the order');
-//     }, 3000);
-// }
+    setTimeout(() => {
+        console.log('I have up the order');
+    }, 3000);
+}
 
 
-// // placOrder(preparingOrder(pickupOrder));// ese nhi ho saka hai ;
+// placOrder(preparingOrder(pickupOrder));// ese nhi ho saka hai ;
 
-// function deliverOrder() {
-//     console.log('I am on the way');
+function deliverOrder() {
+    console.log('I am on the way');
 
-//     setTimeout(() => {
-//         console.log("I have deleiver this orer ");
-//     }, 3000)
-// }
+    setTimeout(() => {
+        console.log("I have deleiver this orer ");
+    }, 3000)
+}
 
 // const Callback = (orderDetail)=> {
 //     preparingOrder(orderDetail);
