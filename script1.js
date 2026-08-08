@@ -26,3 +26,4 @@ const lastLi = itemList.lastElementChild; // The last <li>
 const specialLi = document.querySelector('.special');
 const nextItem = specialLi.nextElementSibling; // The 3rd <li>
 const prevItem = specialLi.previousElementSibling; // The 1st <li>
+
